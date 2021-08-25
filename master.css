@@ -1,0 +1,153 @@
+/*for comment in css there is a specific command or element which is (/* * /) */
+body {
+  color: #40514e;
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+h1 {
+  font-size: 5.625rem;
+  margin: 50px auto 0 auto;
+  color: #66bfbf;
+  font-family: 'Sacramento', cursive;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  color: #66bfbf;
+  font-weight: normal;
+  padding-bottom: 10px;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #11999e;
+}
+
+p{
+  line-height: 2;
+}
+
+hr{
+  border: dotted #eaf6f6 6px;
+  border-bottom: none;
+  width:4%;
+  margin: 100px auto;
+}
+
+a{
+  color: #11999e;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: red;
+}
+
+.top-container {
+  position: relative;
+  background-color: #eaf6f6;
+  padding-top: 100px;
+}
+
+.bottom-container {
+  background-color: #66bfbf;
+  padding: 50px 0 20px;
+}
+
+.middle-container {
+  margin: 100px 0;
+}
+
+.skill-row{
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+}
+
+.intro{
+  width: 30%;
+  margin: auto;
+}
+
+.contact-message{
+  width: 40%;
+  margin: 40px auto 60px;
+}
+
+.copyright{
+  color: #eaf6f6;
+  font-size: 0.75rem;
+  padding: 20px 0 ;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 40px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 250px;
+  bottom: 300px;
+}
+
+.code-img{
+  width: 25%;
+  float: left ;
+  margin-right: 30px;
+}
+
+.chilli-img{
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.btn {
+   background: #071A08;
+   background-image: -webkit-linear-gradient(top, #071A08, #CAD4E2);
+   background-image: -moz-linear-gradient(top, #071A08, #CAD4E2);
+   background-image: -ms-linear-gradient(top, #071A08, #CAD4E2);
+   background-image: -o-linear-gradient(top, #071A08, #CAD4E2);
+   background-image: -webkit-gradient(to bottom, #071A08, #CAD4E2);
+   -webkit-border-radius: 38px;
+   -moz-border-radius: 38px;
+   border-radius: 38px;
+   height: 8px;
+   line-height: 8px;
+   color: #EAECEF;
+   font-family: Verdana;
+   width: 190px;
+   font-size: 28px;
+   font-weight: 100;
+   padding: 24px;
+   -webkit-box-shadow: 1px 1px 20px 0 #000000;
+   -moz-box-shadow: 1px 1px 20px 0 #000000;
+   box-shadow: 1px 1px 20px 0 #000000;
+   text-shadow: 2px -3px 1px #000000;
+   border: solid #337FED 2px;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+}
+
+.btn:hover {
+   border: double #1D5AB1 2px;
+   background: #141615;
+   background-image: -webkit-linear-gradient(top, #141615, #1E71E5);
+   background-image: -moz-linear-gradient(top, #141615, #1E71E5);
+   background-image: -ms-linear-gradient(top, #141615, #1E71E5);
+   background-image: -o-linear-gradient(top, #141615, #1E71E5);
+   background-image: -webkit-gradient(to bottom, #141615, #1E71E5);
+   -webkit-border-radius: 38px;
+   -moz-border-radius: 38px;
+   border-radius: 38px;
+   text-decoration: none;
+}
